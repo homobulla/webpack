@@ -2,7 +2,7 @@ module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
   
-    entry:  __dirname + "/app/main.js",
+    entry:  __dirname + "/app/js/main.js",
     output: {
       path: __dirname + "/public",
       filename: "bundle.js"
