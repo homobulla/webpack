@@ -1,4 +1,5 @@
 module.exports = {
+    mode: 'development',
     devtool: 'eval-source-map',
   
     entry:  __dirname + "/app/main.js",
